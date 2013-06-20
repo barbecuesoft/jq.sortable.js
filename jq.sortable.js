@@ -1,6 +1,5 @@
 /**
- * jq.web.carousel - a carousel library for html5 mobile apps
- * @copyright 2011 - Intel
+ * jq.sortable.js - a sortable lists library for html5 mobile apps
  *
  */
 (function($) {
