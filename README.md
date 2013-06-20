@@ -6,8 +6,10 @@ AppFramework jQMobi scrollable lists plugin
 
 
 USAGE
-==============
+--------------
+Basic usage:
 
+```html
 <ul class='sortable'>
   <li>Elem1</li>
   <li>Elem2</li>
@@ -21,3 +23,4 @@ USAGE
     $('.sortable').sortable();
   });
 </script>
+```
