@@ -52,12 +52,12 @@ jq.sortable.js takes the following options:
  *  *placeholder*: string | class assigned to placeholder li (default: 'ui-placeholder')
  *  *relative_to*: string | selector represinting the parent object (default: 'body')
  *  *before_drag*: function | function called before dragging starts 
-                               dragged int index of the dragged element
-                             overlap int index of the substituted element, -1 if none
+                               (*dragged* int index of the dragged element;
+                             *overlap* int index of the substituted element, -1 if none)
  *  *on_drag*: function | function called during dragging 
-                           dragged int index of the dragged element
-                           overlap int index of the substituted element, -1 if none
+                           (params: *dragged* int index of the dragged element;
+                            *overlap* int index of the substituted element, -1 if none):w
  *  *after_drag*: function | function called after dragging is end paramenters
-                              dragged int index of the dragged element
-                              overlap int index of the substituted element, -1 if none
+                              (*dragged* int index of the dragged element;
+                              (*overlap* int index of the substituted element, -1 if none)
 
