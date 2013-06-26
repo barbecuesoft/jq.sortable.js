@@ -1,15 +1,14 @@
-# jq.sortable.js
+## jq.sortable.js
 
 AppFramework jQMobi scrollable lists plugin
 
 
 
-# USAGE
+## USAGE
 
 Basic usage:
 
-INCLUDE
-====
+### INCLUDE
 
 ```html
     <!-- JS Section -->
@@ -21,8 +20,7 @@ INCLUDE
     <link rel="stylesheet" href="jq.sortable.css" type="text/css" media="screen" charset="utf-8">
 ```
 
-HTML
-====
+### HTML
 
 ```html
 <ul class='sortable'>
@@ -34,8 +32,7 @@ HTML
 </ul>
 ```
 
-JS
-====
+### JS
 
 ```js
 <script type='text/javascript'>
@@ -45,8 +42,8 @@ JS
 </script>
 ```
 
-OPTIONS
-====
+### OPTIONS
+
 
 jq.sortable.js takes the following options:
 
