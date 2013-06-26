@@ -25,24 +25,24 @@ HTML
 ====
 
 ```html
-<ul class='sortable'>
-  <li>Elem1</li>
-  <li>Elem2</li>
-  <li>Elem3</li>
-  <li>Elem4</li>
-  <li>Elem5</li>
-</ul>
+    <ul class='sortable'>
+      <li>Elem1</li>
+      <li>Elem2</li>
+      <li>Elem3</li>
+      <li>Elem4</li>
+      <li>Elem5</li>
+    </ul>
 ```
 
 JS
 ====
 
 ```js
-<script type='text/javascript'>
-  $(function() {
-    $('.sortable').sortable();
-  });
-</script>
+    <script type='text/javascript'>
+      $(function() {
+        $('.sortable').sortable();
+      });
+    </script>
 ```
 
 OPTIONS
