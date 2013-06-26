@@ -1,15 +1,14 @@
-# jq.sortable.js
+## jq.sortable.js
 
 AppFramework jQMobi scrollable lists plugin
 
 
 
-# USAGE
+## USAGE
 
 Basic usage:
 
-INCLUDE
-====
+### INCLUDE
 
 ```html
     <!-- JS Section -->
@@ -21,8 +20,7 @@ INCLUDE
     <link rel="stylesheet" href="jq.sortable.css" type="text/css" media="screen" charset="utf-8">
 ```
 
-HTML
-====
+### HTML
 
 ```html
     <ul class='sortable'>
@@ -34,8 +32,7 @@ HTML
     </ul>
 ```
 
-JS
-====
+### JS
 
 ```js
     <script type='text/javascript'>
@@ -45,8 +42,8 @@ JS
     </script>
 ```
 
-OPTIONS
-====
+### OPTIONS
+
 
 jq.sortable.js takes the following options:
 
@@ -55,12 +52,12 @@ jq.sortable.js takes the following options:
  *  *placeholder*: string | class assigned to placeholder li (default: 'ui-placeholder')
  *  *relative_to*: string | selector represinting the parent object (default: 'body')
  *  *before_drag*: function | function called before dragging starts 
-                               dragged int index of the dragged element
-                             overlap int index of the substituted element, -1 if none
+                               (*dragged* int index of the dragged element;
+                             *overlap* int index of the substituted element, -1 if none)
  *  *on_drag*: function | function called during dragging 
- *                         dragged int index of the dragged element
- *                         overlap int index of the substituted element, -1 if none
+                           (params: *dragged* int index of the dragged element;
+                            *overlap* int index of the substituted element, -1 if none):w
  *  *after_drag*: function | function called after dragging is end paramenters
- *                            dragged int index of the dragged element
- *                            overlap int index of the substituted element, -1 if none
+                              (*dragged* int index of the dragged element;
+                              (*overlap* int index of the substituted element, -1 if none)
 
